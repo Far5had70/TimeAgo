@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "onCreate: " + TimeAgo.Convert(2018, 7, 6, 21, 30, 0));
 
         //way2
-        Log.e(TAG, "onCreate: " + TimeAgo.ConvertWithPattern("2018-07-06T21:30:00", "yyyy-MM-dd'T'HH:mm:ss"));
+        Log.e(TAG, "onCreate: " + TimeAgo.ConvertWithPattern("2018-08-06T21:30:00", "yyyy-MM-dd'T'HH:mm:ss"));
 
         //way 3
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
